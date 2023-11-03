@@ -19,3 +19,33 @@ body{
     gap: 1rem;
     flex-wrap: wrap;
 }
+#input-opc,
+#search{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#input-opc{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#search{
+    background-color: var(--green);
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#search:hover{
+    background-color: green;
+}
+
+h2{
+    margin-top: 2rem;
+}
