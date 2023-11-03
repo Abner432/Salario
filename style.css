@@ -1,6 +1,21 @@
+:root{
+    --green: rgb(103,195,80);
+}
+
 body{
     width: 100%;
     height: 100%;
     background-color: grey;
     font-family: 'Lato';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcoes{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
