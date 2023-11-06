@@ -51,6 +51,12 @@ h2{
     margin-left: 3rem;
 }
 
+.x{
+    position: absolute;
+    float: right;
+    margin: 8px;
+}
+
 .modal1{
     width: 500px;
     height: 500px;
