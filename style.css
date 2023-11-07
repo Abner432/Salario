@@ -99,3 +99,12 @@ h2{
     margin-left: 1rem;
     margin-top: 1rem;
 }
+.novoSal{
+    border-radius: 1rem;
+    width: 4rem;
+    height: 3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

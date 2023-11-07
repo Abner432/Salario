@@ -16,3 +16,10 @@ function fechar(){
     let modal = document.querySelector('.modal1')
     modal.style.display = 'none';
 }
+
+function novoSal(){
+    let novoSal = document.getElementById('input-sal')
+    if(!novoSal.value){
+        alert('Digite um valor válido')
+    }
+}
