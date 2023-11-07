@@ -18,8 +18,11 @@ function fechar(){
 }
 
 function novoSal(){
-    let novoSal = document.getElementById('input-sal')
-    if(!novoSal.value){
+    let novoSala = document.getElementById('input-sal')
+    if(!novoSala.value || novoSala.value<1){
         alert('Digite um valor válido')
+    }
+    else if(novoSala.value<=1200){
+       document.getElementById('exibirSal').innerHTML = "Seu novo salário é: ";
     }
 }
