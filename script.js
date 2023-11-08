@@ -17,12 +17,13 @@ function fechar(){
     modal.style.display = 'none';
 }
 
-function novoSal(){
-    let novoSala = document.getElementById('input-sal')
-    if(!novoSala.value || novoSala.value<1){
-        alert('Digite um valor válido')
+function calcSal() {
+    let antSal = parseInt(document.getElementById('inserir-sal').value)
+    if(!antSal || antSal<=0){
+        alert('digite um salário válido')
     }
-    else if(novoSala.value<=1200){
-       document.getElementById('exibirSal').innerHTML = "Seu novo salário é: ";
+    else if(antSal<=1200){
+        let nSal = antSal+((antSal*15)/100)
+        document.getElementById('mostarSal').innerHTML = "Seu novo salário é: "+nSal
     }
 }

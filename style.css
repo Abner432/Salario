@@ -69,7 +69,7 @@ h2{
 
 .modal1{
     width: 500px;
-    height: 500px;
+    height: 300px;
     background-color: var(--green);
     position: absolute;
     top: 50%;
@@ -89,32 +89,26 @@ h2{
     cursor: pointer;
 }
 
-#input-sal{
-    border: none;
-    font-size: 1rem;
+#inserir-sal{
     outline: none;
-    padding: 1rem;
-    width: 20rem;
-    border-radius: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
-.novoSal{
-    border-radius: 1rem;
-    width: 4rem;
-    height: 3rem;
+    font-size: 25px;
+    background-color: white;
+    width: 18rem;
+    color: black;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding: 10px;
     border: none;
-    background-color: black;
-    color: white;
-    padding: 5px;
 }
 
-#exibirSal{
-    font-size: 25px;
-    outline: none;
-    padding: 1rem;
-    width: 20rem;
-    border-radius: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+.enviar{
+    font-size: 20px;
+    background-color: black;
+    width: 5rem;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-left: 3px;
 }
