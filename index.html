@@ -27,6 +27,7 @@
         <h2>2. Férias</h2>
         <h2>3. Décimo terceiro</h2>
         <h2>4. Sair</h2>
+
         <div class="modal1">
             <div onclick="fechar()" class="fechar" title="clique aqui para fechar">
                 <svg class="x" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -40,6 +41,37 @@
                 Enviar
             </button>
             <p id="mostarSal" style="margin-left: 3rem; font-size: 30px; "></p>
+        </div>
+
+        <div class="modal2">
+            <div onclick="fechar()" class="fechar" title="clique aqui para fechar">
+                <svg class="x" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-x" viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+            <input type="number" id="inserir-ferias" placeholder="Digite o seu salário atual">
+            <button onclick="calcFerias()" class="enviar" title="clique para inserir">
+                Enviar
+            </button>
+            <p id="mostarFerias" style="margin-left: 3rem; font-size: 30px; "></p>
+        </div>
+
+        <div class="modal3">
+            <div onclick="fechar()" class="fechar" title="clique aqui para fechar">
+                <svg class="x" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-x" viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+            <input type="number" id="inserir-decimo" placeholder="Digite o seu salário atual">
+            <input type="number" id="inserir-meses" placeholder="Digite o número de meses trabalhados">
+            <button onclick="calcDecimo()" class="enviar" title="clique para inserir">
+                Enviar
+            </button>
+            <p id="mostarDecimo" style="margin-left: 3rem; font-size: 30px; "></p>
         </div>
     </div>
 </body>
